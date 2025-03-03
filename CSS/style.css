@@ -1,0 +1,56 @@
+        /* element selector */
+        body{
+            background-color: #d2e055;
+            font-family: Noto Serif Khojki
+            ;
+        }
+        
+        p{
+            color: blueviolet;
+        }
+
+        h1, h2, h3 {
+            color: rgb(82, 116, 3);
+        }
+        /* class selector */
+        .bg-warning {
+            background-color: rgb(243, 234, 101);
+        }
+
+        .text-success {
+            color: rgb(177, 138, 10);
+        }
+
+        /* id selector */
+        #h5{
+            color: #85b31b;
+        }
+
+        a{
+            text-decoration: none;
+            color: green;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        .rounded{
+            border-radius: 20px;
+        }
+        /* form */
+        input[type="text"], input[type="date"], textarea, select{
+            padding: 5px;
+            border-radius: 10px;
+            width: 100%;
+            border: 3px groove firebrick;
+        }
+
+        button{
+            border-radius: 10px ;
+            color: azure;
+            padding: 5px;
+            width: 100%;
+            background-color: green;
+        }
